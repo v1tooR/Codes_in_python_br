@@ -9,7 +9,7 @@ def countdown(t):
         t -= 1
 
     print('Tempo esgotado!')
-
+    
 t = input('Coloque o tempo em segundos: ')
 
 countdown(int(t))
