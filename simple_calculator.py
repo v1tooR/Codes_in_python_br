@@ -1,3 +1,7 @@
+from os import system
+import os
+
+
 def add(x,y):
     return x + y
 
@@ -25,6 +29,7 @@ while True: #Não terá nenhum parâmetro para impedir o laço, tendo que criar 
 
         if choice == '1':
             print(num1,"+", num2, "=", add(num1,num2))
+            
 
         elif choice == '2':
             print(num1, "-", num2, "=", sub(num1,num2))
